@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* NanumBarunGothic font */
+@font-face {
+ font-family: 'NanumBarunGothic';
+ src: url(../font/NanumBarunGothic/NanumBarunGothic.eot);
+ src: url(../font/NanumBarunGothic/NanumBarunGothicd41d.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumBarunGothic/NanumBarunGothic.woff) format('woff'),
+      url(../font/NanumBarunGothic/NanumBarunGothic.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumBarunGothicBold';
+ src: url(../font/NanumBarunGothic/NanumBarunGothicBold.eot);
+ src: url(../font/NanumBarunGothic/NanumBarunGothicBoldd41d.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumBarunGothic/NanumBarunGothicBold.woff) format('woff'),
+      url(../font/NanumBarunGothic/NanumBarunGothicBold.ttf) format('truetype');
+}
+
+/*  roboto font */
+@font-face {
+ font-family: 'roboto';
+ src: url(../font/roboto/Roboto-Regular.eot);
+ src: url(../font/roboto/Roboto-Regulard41d.eot?#iefix) format('embedded-opentype'),
+      url(../font/roboto/Roboto-Regular.woff) format('woff'),
+      url(../font/roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Roboto', sans-serif;
+ src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet);
+}
+
+
+/*  volte font */
+@font-face {
+font-family: 'volteRegular';
+src: url(../font/Volte/Volte-Regular.eot);
+src: url(../font/Volte/Volte-Regulard41d.eot?#iefix) format('embedded-opentype'),
+     url(../font/Volte/Volte-Regular.woff2) format('woff2'),
+     url(../font/Volte/Volte-Regular.woff) format('woff'),
+     url(../font/Volte/Volte-Regular.ttf) format('truetype'),
+     url(../font/Volte/Volte-Regular.svg#Volte-Regular) format('svg');
+}
+
+@font-face {
+font-family: 'volteSemiBold';
+src: url(../font/Volte/Volte-Semibold.eot);
+src: url(../font/Volte/Volte-Semiboldd41d.eot?#iefix) format('embedded-opentype'),
+     url(../font/Volte/Volte-Semibold.woff2) format('woff2'),
+     url(../font/Volte/Volte-Semibold.woff) format('woff'),
+     url(../font/Volte/Volte-Semibold.ttf) format('truetype'),
+     url(../font/Volte/Volte-Semibold.svg#Volte-Semibold) format('svg');
+}
