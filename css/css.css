@@ -157,9 +157,42 @@ a{text-decoration:none}
 .spot .page ul li a{display:block;width:8px;height:8px;background:url(http://ai.esmplus.com/jkll96/spr.png) no-repeat;background-position:0 -150px}
 .spot .page ul li a.on{background-position:0 -140px}
 
-.spot .spot_txt{position:absolute;top:42%;left:25%;right:25%;width:800px;margin:0px 0 0 0;z-index:20}
+.spot .spot_txt{position:absolute;top:42%;left:50%;width:400px;margin:-25px 0 0 -200px;z-index:20}
 .spot .spot_txt p{font-size:60px;font-family: 'Roboto', sans-serif; font-weight: 900; color:#fff;text-align:center}
-.spot .spot_txt h2{width:800px;height:600px;margin-top:0px;background:url(https://fueltransport.com/wp-content/uploads/2020/03/Scroll-Down-white.gif) no-repeat}
+/*.spot .spot_txt h2{width:400px;height:200px;margin-top:0px;background:url(http://ai.esmplus.com/jkll96/img_c_logo.png) no-repeat}*/
+
+/* about section */
+.section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#faf8f5}
+.section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
+.section_about p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 680px; margin: 0 auto;}
+.section_about .thumb {width: 300px; margin: 50px auto 0;}
+.section_about .thumb img {display: block; width: 100%;}
+
+
+/* works */
+.section_works {position: relative; padding: 110px 0 0px; text-align: center;}
+.section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
+.section_works p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 680px; margin: 0 auto;}
+.section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
+.section_works p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 680px; margin: 0 auto;}
+
+.worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; font-size: 16px; color: #fff; margin-bottom: 2px;}
+.worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 13px; color: #fff;}
+
+/* profile */
+.section_profile {position: relative; padding: 110px 0 160px 0; text-align: center;background:#f4f4f4}
+.section_profile h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 24px;}/* about */
+.section_profile h2 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 13px; color: #151515; width: 1120px; margin: 0 auto; margin-top: 80px;}/* Work Experience */
+.section_profile h3 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
+.section_profile h4 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 16px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 6px;}/* Platform Designer */
+.section_profile h5 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 14px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 8px;}/* Making Design System for Toss */
+.section_profile h6 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 400; font-size: 13px; color: #84848b; width: 1120px; margin: 0 auto; margin-bottom: 17px;}/* January 2018 - ｜ Seoul, Korea, Republic of */
+.section_profile p {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
+
+
+hr.section_profile_hr1 {border: 0;height: 1px;background: #151515; width: 1120px;}
+hr.section_profile_hr2 {border: 0;height: 1px;background: #dadada; width: 1120px;}
+hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px;margin-top: 40px;}
 
 
 
@@ -1624,33 +1657,55 @@ a{text-decoration:none}
 }
 /* 모바일 */
 @media only screen and (max-width:667px) {
-	/* Common */
- .spot .bg_dim{position:absolute;top:0;left:0;width:100%;height:100%;background:url(http://ai.esmplus.com/jkll96/bg_dim.png) repeat;z-index:10}
- .spot .spot_bg_img img{position:absolute;width:auto;height:100%;top:50%;left:50%;z-index:0;transform: translate(-50%,-50%);-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%)}
- .spot .spot_bg_img img.portrait{width:100%;height:auto}
+	.spot .bg_dim{position:absolute;top:0;left:0;width:100%;height:100%;background:url(http://ai.esmplus.com/jkll96/bg_dim.png) repeat;z-index:10}
+  .spot .spot_bg_img img{position:absolute;width:auto;height:100%;top:50%;left:50%;z-index:0;transform: translate(-50%,-50%);-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%)}
+  .spot .spot_bg_img img.portrait{width:100%;height:auto}
 
- .spot .move_spot li a{position:absolute;top:50%;width:31px;height:60px;margin-top:-30px;background:url(http://ai.esmplus.com/jkll96/spr.png) no-repeat;z-index:10}
- .spot .move_spot li a.prev{display: none;}
- .spot .move_spot li a.next{display: none;}
-
-
- .spot .page{position:absolute;bottom:40px;width:100%;z-index:20}
- .spot .page ul{text-align:center}
- .spot .page ul li{display: none;}
- .spot .page ul li:first-child{display: none;}
- .spot .page ul li a{display: none;}
- .spot .page ul li a.on{display: none;}
+  .spot .move_spot li a{position:absolute;top:50%;width:31px;height:60px;margin-top:-30px;background:url(http://ai.esmplus.com/jkll96/spr.png) no-repeat;z-index:10}
+  .spot .move_spot li a.prev{display: none;}
+  .spot .move_spot li a.next{display: none;}
 
 
+  .spot .page{position:absolute;bottom:40px;width:100%;z-index:20}
+  .spot .page ul{text-align:center}
+  .spot .page ul li{display: none;}
+  .spot .page ul li:first-child{display: none;}
+  .spot .page ul li a{display: none;}
+  .spot .page ul li a.on{display: none;}
 
- .spot .spot_txt{position:absolute;top:50%;left:50%;width:800px;margin:-70px 0 0 -200px;z-index:20}
 
- .spot .spot_txt p{font-size:20px;font-family: 'Roboto', sans-serif;font-weight: 900;color:#fff;text-align:center}
- /*.spot .spot_txt h2{width:400px;height:200px;margin-top:8px;background:url(http://ai.esmplus.com/jkll96/img_c_logo.png) no-repeat;background-size:400px 200px}*/
 
- /* about section */
+  .spot .spot_txt{position:absolute;top:50%;left:50%;width:800px;margin:-70px 0 0 -200px;z-index:20}
 
- /* about 유튜브 영상 팝업 */
+  .spot .spot_txt p{font-size:20px;font-family: 'Roboto', sans-serif;font-weight: 900;color:#fff;text-align:center}
+  /*.spot .spot_txt h2{width:400px;height:200px;margin-top:8px;background:url(http://ai.esmplus.com/jkll96/img_c_logo.png) no-repeat;background-size:400px 200px}*/
+
+  /* about section */
+  .section_about {position: relative; padding: 55px 0 80px; text-align: center;}
+  .section_about h2 {font-family:  'Roboto', sans-serif; font-size: 40px; line-height: 37px; color: #000; margin-bottom: 16px;}
+  .section_about p {font-family:  'Roboto', sans-serif; font-size: 14px; color: #000; line-height: 24px; width: 81%; margin: 0 auto;}
+  .section_about .thumb {width: 90%; margin: 40px auto 0;}
+  .section_about .thumb img {display: block; width: 100%;}
+/* work card */
+.worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; font-size: 16px; color: #151515; margin-bottom: 2px;}
+.worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 13px; color: #151515;}
+/*profile*/
+.section_profile {position: relative; padding: 110px 0 160px 0; text-align: center;background:#f4f4f4}
+.section_profile h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 24px;}/* about */
+.section_profile h2 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 13px; color: #151515; width: 1120px; margin: 0 auto; margin-top: 80px;}/* Work Experience */
+.section_profile h3 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
+.section_profile h4 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 16px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 6px;}/* Platform Designer */
+.section_profile h5 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 14px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 8px;}/* Making Design System for Toss */
+.section_profile h6 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 400; font-size: 13px; color: #84848b; width: 1120px; margin: 0 auto; margin-bottom: 17px;}/* January 2018 - ｜ Seoul, Korea, Republic of */
+.section_profile p {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
+
+
+hr.section_profile_hr1 {border: 0;height: 1px;background: #151515; width: 1120px;}
+hr.section_profile_hr2 {border: 0;height: 1px;background: #dadada; width: 1120px;}
+hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px;margin-top: 40px;}
+
+
+  /* about 유튜브 영상 팝업 */
 
  .opn {
      display: block
