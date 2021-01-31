@@ -163,7 +163,7 @@ a{text-decoration:none}
 
 /* about section */
 .section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#faf8f5}
-.section_about h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 30px;}
+.section_about h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 60px;}
 .section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 30px; width: 1120px; margin: 0 auto;}
 .section_about h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 10px; margin-bottom: 12px;}
 .section_about h4 {display: block; font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515;margin: 0 auto; margin-top: 22px;}
@@ -173,17 +173,17 @@ a{text-decoration:none}
 .section_about .thumb img {display: block; width: 100%;}
 
 /* works */
-.section_works {position: relative; padding: 110px 0 0px; text-align: center;}
-.section_works h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 30px;}
+.section_works {position: relative; padding: 110px 0 160px; text-align: center;}
+.section_works h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 60px;}
 .section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 30px; width: 1120px; margin: 0 auto;}
-.section_works h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 10px;}
+.section_works h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 10px; margin-bottom: 12px;}
 
 .worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; text-align: left; font-size: 16px; color: #fff; margin-bottom: 2px;}
 .worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 13px; color: #fff;}
 
 /* profile */
 .section_profile {position: relative; padding: 110px 0 160px 0; text-align: center;background:#f4f4f4}
-.section_profile h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 24px;}/* about */
+.section_profile h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 60px;}/* about */
 .section_profile h2 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 13px; color: #151515; width: 1120px; margin: 0 auto; margin-top: 80px;}/* Work Experience */
 .section_profile h3 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
 .section_profile h4 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 16px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 6px;}/* Platform Designer */
