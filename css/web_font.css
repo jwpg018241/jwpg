@@ -1,52 +1,17 @@
 @charset "utf-8";
 
-/* NanumBarunGothic font */
-@font-face {
- font-family: 'NanumBarunGothic';
- src: url(../font/NanumBarunGothic/NanumBarunGothic.eot);
- src: url(../font/NanumBarunGothic/NanumBarunGothicd41d.eot?#iefix) format('embedded-opentype'),
-      url(../font/NanumBarunGothic/NanumBarunGothic.woff) format('woff'),
-      url(../font/NanumBarunGothic/NanumBarunGothic.ttf) format('truetype');
-}
-@font-face {
- font-family: 'NanumBarunGothicBold';
- src: url(../font/NanumBarunGothic/NanumBarunGothicBold.eot);
- src: url(../font/NanumBarunGothic/NanumBarunGothicBoldd41d.eot?#iefix) format('embedded-opentype'),
-      url(../font/NanumBarunGothic/NanumBarunGothicBold.woff) format('woff'),
-      url(../font/NanumBarunGothic/NanumBarunGothicBold.ttf) format('truetype');
-}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
 
-/*  roboto font */
-@font-face {
- font-family: 'roboto';
- src: url(../font/roboto/Roboto-Regular.eot);
- src: url(../font/roboto/Roboto-Regulard41d.eot?#iefix) format('embedded-opentype'),
-      url(../font/roboto/Roboto-Regular.woff) format('woff'),
-      url(../font/roboto/Roboto-Regular.ttf) format('truetype');
-}
-@font-face {
- font-family: 'Roboto', sans-serif;
- src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet);
-}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
 
-/*  volte font */
-@font-face {
-font-family: 'volteRegular';
-src: url(../font/Volte/Volte-Regular.eot);
-src: url(../font/Volte/Volte-Regulard41d.eot?#iefix) format('embedded-opentype'),
-     url(../font/Volte/Volte-Regular.woff2) format('woff2'),
-     url(../font/Volte/Volte-Regular.woff) format('woff'),
-     url(../font/Volte/Volte-Regular.ttf) format('truetype'),
-     url(../font/Volte/Volte-Regular.svg#Volte-Regular) format('svg');
-}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
 
-@font-face {
-font-family: 'volteSemiBold';
-src: url(../font/Volte/Volte-Semibold.eot);
-src: url(../font/Volte/Volte-Semiboldd41d.eot?#iefix) format('embedded-opentype'),
-     url(../font/Volte/Volte-Semibold.woff2) format('woff2'),
-     url(../font/Volte/Volte-Semibold.woff) format('woff'),
-     url(../font/Volte/Volte-Semibold.ttf) format('truetype'),
-     url(../font/Volte/Volte-Semibold.svg#Volte-Semibold) format('svg');
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+body, h1, h2, h3, h4, h5, h6, input, textarea, select {
+	font-family: 'Noto Sans KR', sans-serif;
 }
