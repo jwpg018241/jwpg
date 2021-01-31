@@ -1686,7 +1686,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	.section_about {position: relative; padding: 55px 0 80px; text-align: center;background:#faf8f5}
 	.section_about h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 60px;}
 	.section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 30px; width: 90%; margin: 0 auto;}
-	.section_about h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 12px;}
+	.section_about h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 30px;}
 	.section_about h4 {display: block; font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515;margin: 0 auto; margin-top: 6px;}
 	.section_about h5 {display: block; font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; line-height: 24px; color: #84848b;margin: 0 auto; margin-top: 6px;}
 
@@ -1696,7 +1696,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 .section_works {position: relative; padding: 55px 0 80px; text-align: center;}
 .section_works h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 60px;}
 .section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 30px; width: 90%; margin: 0 auto;}
-.section_works h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 12px;}
+.section_works h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 30px;}
 
 .worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515; margin-top: 6px;}
 .worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; margin-top: 6px;}
