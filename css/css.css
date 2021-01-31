@@ -164,17 +164,15 @@ a{text-decoration:none}
 /* about section */
 .section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#faf8f5}
 .section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
-.section_about p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 680px; margin: 0 auto;}
-.section_about .thumb {width: 300px; margin: 50px auto 0;}
+.section_about p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 1120px; margin: 0 auto;}
+.section_about .thumb {width: 400px; margin: 50px auto 0;}
 .section_about .thumb img {display: block; width: 100%;}
-
+.section_about h3 {display: block; font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #151515;margin: 0 auto; margin-bottom: 6px;}
 
 /* works */
 .section_works {position: relative; padding: 110px 0 0px; text-align: center;}
 .section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
-.section_works p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 680px; margin: 0 auto;}
-.section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
-.section_works p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 680px; margin: 0 auto;}
+.section_works p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 1120px; margin: 0 auto;}
 
 .worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; font-size: 16px; color: #fff; margin-bottom: 2px;}
 .worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 13px; color: #fff;}
@@ -1682,27 +1680,31 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 
   /* about section */
   .section_about {position: relative; padding: 55px 0 80px; text-align: center;}
-  .section_about h2 {font-family:  'Roboto', sans-serif; font-size: 40px; line-height: 37px; color: #000; margin-bottom: 16px;}
-  .section_about p {font-family:  'Roboto', sans-serif; font-size: 14px; color: #000; line-height: 24px; width: 81%; margin: 0 auto;}
+  .section_about h2 {font-family:  'Roboto', sans-serif; font-size: 80px; line-height: 37px; color: #000; margin-bottom: 16px;}
+  .section_about p {font-family:  'Roboto', sans-serif; font-size: 14px; color: #000; line-height: 24px; width: 90%; margin: 0 auto;}
   .section_about .thumb {width: 90%; margin: 40px auto 0;}
-  .section_about .thumb img {display: block; width: 100%;}
+  .section_about .thumb img {display: block; width: 90%;}
 /* work card */
+.section_works {position: relative; padding: 55px 0 0px; text-align: center;}
+.section_works h2 {font-family:  'Roboto', sans-serif; font-size: 80px; line-height: 37px; color: #000; margin-bottom: 16px;}
+.section_works p {font-family:  'Roboto', sans-serif; font-size: 14px; color: #000; line-height: 24px; width: 90%; margin: 0 auto;}
+
 .worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; font-size: 16px; color: #151515; margin-bottom: 2px;}
 .worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 13px; color: #151515;}
 /*profile*/
-.section_profile {position: relative; padding: 110px 0 160px 0; text-align: center;background:#f4f4f4}
+.section_profile {position: relative; padding: 55px 0 80px 0; text-align: center;background:#f4f4f4}
 .section_profile h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 24px;}/* about */
-.section_profile h2 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 13px; color: #151515; width: 1120px; margin: 0 auto; margin-top: 80px;}/* Work Experience */
-.section_profile h3 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
-.section_profile h4 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 16px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 6px;}/* Platform Designer */
-.section_profile h5 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 14px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 8px;}/* Making Design System for Toss */
-.section_profile h6 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 400; font-size: 13px; color: #84848b; width: 1120px; margin: 0 auto; margin-bottom: 17px;}/* January 2018 - ｜ Seoul, Korea, Republic of */
-.section_profile p {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 15px; color: #151515; width: 1120px; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
+.section_profile h2 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 13px; color: #151515; width: 90%; margin: 0 auto; margin-top: 80px;}/* Work Experience */
+.section_profile h3 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 900; font-size: 15px; color: #151515; width: 90%; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
+.section_profile h4 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 16px; color: #151515; width: 90%; margin: 0 auto; margin-bottom: 6px;}/* Platform Designer */
+.section_profile h5 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 14px; color: #151515; width: 90%; margin: 0 auto; margin-bottom: 8px;}/* Making Design System for Toss */
+.section_profile h6 {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 400; font-size: 13px; color: #84848b; width: 90%; margin: 0 auto; margin-bottom: 17px;}/* January 2018 - ｜ Seoul, Korea, Republic of */
+.section_profile p {font-family:  'Roboto', sans-serif;  text-align: left; font-weight: 500; font-size: 15px; color: #151515; width: 90%; margin: 0 auto; margin-bottom: 9px; margin-top: 17px;}/* Toss */
 
 
-hr.section_profile_hr1 {border: 0;height: 1px;background: #151515; width: 1120px;}
-hr.section_profile_hr2 {border: 0;height: 1px;background: #dadada; width: 1120px;}
-hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px;margin-top: 40px;}
+hr.section_profile_hr1 {border: 0;height: 1px;background: #151515; width: 90%;}
+hr.section_profile_hr2 {border: 0;height: 1px;background: #dadada; width: 90%;}
+hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 90%;margin-top: 40px;}
 
 
   /* about 유튜브 영상 팝업 */
