@@ -1699,7 +1699,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 .section_works h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 12px;}
 
 .worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; text-align: left; font-size: 20px; color: #151515; margin-top: 6px;}
-.worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #151515; margin-top: 6px;}
+.worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; margin-top: 6px;}
 /*profile*/
 .section_profile {position: relative; padding: 55px 0 80px 0; text-align: center;background:#f4f4f4}
 .section_profile h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 60px;}/* about */
