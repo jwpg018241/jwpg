@@ -1073,7 +1073,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	min-width:calc(1165px+4rem);
 	margin:auto;
 	position:relative;
-	top:10px
+	top:60px
 }
 .tablet .containers {
 	min-width:-webkit-calc(565px+4rem);
