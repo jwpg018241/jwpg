@@ -1302,10 +1302,10 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	z-index:1;
 	background-color:#fff;
 	margin-bottom:114px;
-	padding-top:15px
+	padding-top:0px
 }
 .page-works .worksList {
-	padding-top:85px;
+	padding-top:0px;
 	margin-bottom:0
 }
 .worksList_content {
@@ -2809,7 +2809,7 @@ width:100%;
 		overflow:inherit
 	}
 	.page-works .worksList {
-		padding-top:25px;
+		padding-top:0px;
 		margin-bottom:0
 	}
 	.worksList_headline {
