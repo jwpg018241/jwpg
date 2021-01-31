@@ -163,11 +163,12 @@ a{text-decoration:none}
 
 /* about section */
 .section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#faf8f5}
-.section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #000000; margin-bottom: 24px;}
-.section_about p {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 20px; color: #000000; line-height: 30px; width: 1120px; margin: 0 auto;}
+.section_about h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 24px;}
+.section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 500; font-size: 31px; color: #151515; line-height: 30px; width: 1120px; margin: 0 auto;}
+.section_about h3 {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 18px;}
+
 .section_about .thumb {width: 400px; margin: 50px auto 0;}
 .section_about .thumb img {display: block; width: 100%;}
-.section_about h3 {display: block; font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515;margin: 0 auto; margin-top: 27px;}
 .section_about h4 {display: block; font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515;margin: 0 auto; margin-top: 27px;}
 .section_about h5 {display: block; font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; line-height: 24px; color: #84848b;margin: 0 auto; margin-top: 18px;}
 
