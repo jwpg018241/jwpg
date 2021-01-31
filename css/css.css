@@ -1683,15 +1683,20 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
   /*.spot .spot_txt h2{width:400px;height:200px;margin-top:8px;background:url(http://ai.esmplus.com/jkll96/img_c_logo.png) no-repeat;background-size:400px 200px}*/
 
   /* about section */
-  .section_about {position: relative; padding: 55px 0 80px; text-align: center;}
-  .section_about h2 {font-family:  'Roboto', sans-serif; font-size: 80px; line-height: 37px; color: #000; margin-bottom: 16px;}
-  .section_about p {font-family:  'Roboto', sans-serif; font-size: 14px; color: #000; line-height: 24px; width: 90%; margin: 0 auto;}
+	.section_about {position: relative; padding: 55px 0 80px; text-align: center;background:#faf8f5}
+	.section_about h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 30px;}
+	.section_about h2 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 30px; width: 90%; margin: 0 auto;}
+	.section_about h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 12px;}
+	.section_about h4 {display: block; font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515;margin: 0 auto; margin-top: 22px;}
+	.section_about h5 {display: block; font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; line-height: 24px; color: #84848b;margin: 0 auto; margin-top: 6px;}
+
   .section_about .thumb {width: 90%; margin: 40px auto 0;}
   .section_about .thumb img {display: block; width: 90%;}
 /* work card */
 .section_works {position: relative; padding: 55px 0 0px; text-align: center;}
-.section_works h2 {font-family:  'Roboto', sans-serif; font-size: 80px; line-height: 37px; color: #000; margin-bottom: 16px;}
-.section_works p {font-family:  'Roboto', sans-serif; font-size: 14px; color: #000; line-height: 24px; width: 90%; margin: 0 auto;}
+.section_works h1 {font-family:  'Roboto', sans-serif; font-weight: 900; font-size: 80px; color: #151515; margin-bottom: 30px;}
+.section_works h2 {font-family:  'Roboto', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 30px; width: 90%; margin: 0 auto;}
+.section_works h3 {font-family:  'Roboto', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px;}
 
 .worksCard_body h5 {font-family:  'Roboto', sans-serif; font-weight: 700; font-size: 16px; color: #151515; margin-bottom: 2px;}
 .worksCard_body h6 {font-family:  'Roboto', sans-serif; font-weight: 400; font-size: 13px; color: #151515;}
