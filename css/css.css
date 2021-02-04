@@ -165,7 +165,7 @@ a{text-decoration:none}
 .section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#f4f4f4}
 .section_about h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 900; text-align: left; font-size: 80px; color: #151515; line-height: 122px; width: 1120px; margin: 0 auto; margin-bottom: 60px;}
 .section_about h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 47px; width: 1120px; margin: 0 auto;}
-.section_about h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 10px; margin-bottom: 30px;}
+.section_about h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 14px; margin-bottom: 30px;}
 .section_about h4 {display: block; font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 20px; line-height: 30px; color: #151515;margin: 0 auto; margin-top: 16px;}
 .section_about h5 {display: block; font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; line-height: 24px; color: #84848b;margin: 0 auto; margin-top: 6px;}
 
@@ -176,7 +176,7 @@ a{text-decoration:none}
 .section_works {position: relative; padding: 110px 0 160px; text-align: center;}
 .section_works h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 900; text-align: left; font-size: 80px; color: #151515; line-height: 122px; width: 1120px; margin: 0 auto; margin-bottom: 60px;}
 .section_works h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 47px; width: 1120px; margin: 0 auto;}
-.section_works h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 10px; margin-bottom: 30px;}
+.section_works h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 14px; margin-bottom: 30px;}
 
 .worksCard_body h5 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; text-align: left; font-size: 16px; color: #fff; margin-bottom: 2px;}
 .worksCard_body h6 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 13px; color: #fff;}
@@ -1686,7 +1686,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	.section_about {position: relative; padding: 55px 0 80px; text-align: center;background:#f4f4f4}
 	.section_about h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 900; text-align: left; font-size: 80px; line-height: 122px; color: #151515; width: 90%; margin: 0 auto; margin-bottom: 60px;}
 	.section_about h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 47px; width: 90%; margin: 0 auto;}
-	.section_about h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 30px;}
+	.section_about h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 14px; margin-bottom: 30px;}
 	.section_about h4 {display: block; font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515;margin: 0 auto; margin-top: 6px;}
 	.section_about h5 {display: block; font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; line-height: 24px; color: #84848b;margin: 0 auto; margin-top: 6px;}
 
@@ -1696,7 +1696,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 .section_works {position: relative; padding: 55px 0 80px; text-align: center;}
 .section_works h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 900; text-align: left; font-size: 80px;  line-height: 122px; color: #151515; width: 90%; margin: 0 auto; margin-bottom: 60px;}
 .section_works h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 47px; width: 90%; margin: 0 auto;}
-.section_works h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 10px; margin-bottom: 30px;}
+.section_works h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 90%; margin: 0 auto; margin-top: 14px; margin-bottom: 30px;}
 
 .worksCard_body h5 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 20px; color: #151515; margin-top: 6px;}
 .worksCard_body h6 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; margin-top: 6px;}
