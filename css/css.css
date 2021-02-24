@@ -140,6 +140,7 @@ a{text-decoration:none}
 
 
 /* Common */
+hr {border: 0;height: 1px;background: #dadada; width: 100%;}
 
 .spot{position:relative;overflow:hidden;width:100%;height:100vh;background:#333}
 .spot .bg_dim{position:absolute;top:0;left:0;width:100%;height:100%;background:url(http://ai.esmplus.com/jkll96/bg_dim.png) repeat;z-index:10}
@@ -162,7 +163,7 @@ a{text-decoration:none}
 /*.spot .spot_txt h2{width:400px;height:200px;margin-top:0px;background:url(http://ai.esmplus.com/jkll96/img_c_logo.png) no-repeat}*/
 
 /* about section */
-.section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#f4f4f4}
+.section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#fff}
 .section_about h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 900; font-size: 80px; color: #151515; line-height: 122px; margin-bottom: 60px;}
 .section_about h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 47px; width: 1120px; margin: 0 auto;}
 .section_about h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 14px; margin-bottom: 30px;}
@@ -173,7 +174,7 @@ a{text-decoration:none}
 .section_about .thumb img {display: block; width: 100%;}
 
 /* works */
-.section_works {position: relative; padding: 110px 0 160px; text-align: center;}
+.section_works {position: relative; padding: 110px 0 160px; text-align: center;background:#fff}
 .section_works h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 900; font-size: 80px; color: #151515; line-height: 122px; margin-bottom: 60px;}
 .section_works h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: left; font-size: 31px; color: #151515; line-height: 47px; width: 1120px; margin: 0 auto;}
 .section_works h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; text-align: left; font-size: 16px; color: #84848b; line-height: 24px; width: 1120px; margin: 0 auto; margin-top: 14px; margin-bottom: 30px;}
