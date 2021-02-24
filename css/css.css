@@ -1680,7 +1680,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	.spot .spot_txt {position: relative; padding: 0 auto; top: 50%; transform: translateY(-40%); text-align: center;z-index:20}
 	.spot .spot_txt h2{font-family:  'Noto Sans KR', sans-serif; font-weight: 900; text-align: center; font-size: 80px; color: #fff; width: 1120px; margin: 0 auto;}
 	.spot .spot_txt p {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: center; font-size: 17px; color: #fff; line-height: 12px; width: 1120px; margin: 0 auto;}
-	.spot .spot_txt img {display: block; margin: 0 auto; width: 15%;}
+	.spot .spot_txt img {display: block; margin: 0 auto; width: 40%;}
 
 
   /* about section */
