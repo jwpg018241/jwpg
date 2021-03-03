@@ -146,6 +146,8 @@ hr {border: 0;height: 1px;background: #dadada; width: 100%;}
 .spot .bg_dim{position:absolute;top:0;left:0;width:100%;height:100%;background:url(http://ai.esmplus.com/jkll96/bg_dim.png) repeat;z-index:10}
 .spot .spot_bg_img img{position:absolute;width:auto;height:100%;top:50%;left:50%;z-index:0;transform: translate(-50%,-50%);-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%)}
 .spot .spot_bg_img img.portrait{width:100%;height:auto}
+.spot .spot_bg_img video {width: 100%; height: auto; margin: 0 auto;}
+
 
 .spot .move_spot li a{position:absolute;top:50%;width:31px;height:60px;margin-top:-30px;background:url(http://ai.esmplus.com/jkll96/spr.png) no-repeat;z-index:10}
 .spot .move_spot li a.prev{left:60px;background-position:0 -230px}
