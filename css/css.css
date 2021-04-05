@@ -1672,7 +1672,7 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
 	letter-spacing:.08em
 }
 /* 모바일 */
-@media only screen and (min-width:1240px) {
+@media only screen and (max-width:667px) {
 	.spot .bg_dim{position:absolute;top:0;left:0;width:100%;height:100%;background:url(http://ai.esmplus.com/jkll96/bg_dim.png) repeat;z-index:10}
   .spot .spot_bg_img img{position:absolute;width:auto;height:100%;top:50%;left:50%;z-index:0;transform: translate(-50%,-50%);-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%)}
   .spot .spot_bg_img img.portrait{width:100%;height:auto}
