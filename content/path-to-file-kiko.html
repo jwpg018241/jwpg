@@ -51,27 +51,6 @@ max-width: 1400px;
 margin: 80px auto;
 
 }
-.section_pro {position: relative; padding: 60px 84px 80px 84px; text-align: left;}
-.section_pro h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 44px; color: #151515; line-height: 58px;margin-bottom: 58px;}
-.section_pro p {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; color: #696969; line-height: 26px; width: 720px; margin: 0px;}
-
-.section_pro_white {position: relative; padding: 80px 84px 40px 84px; text-align: left;}
-.section_pro_white h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 30px; color: #151515; line-height: 40px;margin-bottom: 40px;}
-.section_pro_white h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; color: #696969; line-height: 26px; width: 720px; margin: 0px;margin-bottom: 40px;}
-.section_pro_white img {display: block; width: 100%; justify-content: center; align-items: center; position: relative; margin-bottom: 20px;}
-.section_pro_white video {display: block; width: 100%; height: auto; margin: 0 auto; margin-bottom: 20px;}
-
-.item h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 30px; color: #151515; line-height: 40px;margin-bottom: 40px;}
-.item h4 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 20px; color: #151515; line-height: 26px;margin-bottom: 26px;}
-.item p{font-family:  'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; color: #696969; line-height: 26px; margin: 0px;}
-.item img{display: block; width: 100%; justify-content: center; align-items: center; position: relative; margin-bottom: 20px;}
-.item video {display: block; width: 100%; justify-content: center; align-items: center; position: relative; margin-bottom: 20px;}
-
-.box {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(2, 1fr); grid-auto-flow: row; gap: 20px;}
-
-
-
-hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bottom: 40px;}
 
 
 
@@ -84,27 +63,9 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
   max-width: 100%;
   margin: 74px auto;
   }
-  .section_pro {position: relative; padding: 60px 16px 60px 16px; text-align: left;}
-  .section_pro h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 44px; color: #151515; line-height: 58px;margin-bottom: 58px;}
-  .section_pro p {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; color: #696969; line-height: 26px; width: 100%; margin: 0px;}
-
-  .section_pro_white {position: relative; padding: 60px 16px 40px 16px; text-align: left;}
-  .section_pro_white h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 30px; color: #151515; line-height: 40px;margin-bottom: 40px;}
-  .section_pro_white h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; color: #696969; line-height: 26px; width: 100%; margin: 0px;margin-bottom: 40px;}
-  .section_pro_white img {display: block; width: 100%; justify-content: center; align-items: center; position: relative; margin-bottom: 10px;}
-  .section_pro_white video {display: block; width: 100%; height: auto; margin: 0 auto; margin-bottom: 10px;}
-
-  .item h3 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 30px; color: #151515; line-height: 40px;margin-bottom: 40px;}
-  .item h4 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 20px; color: #151515; line-height: 26px;margin-bottom: 26px;}
-  .item p{font-family:  'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px; color: #696969; line-height: 26px; margin: 0px;}
-  .item img{display: block; width: 100%; justify-content: center; align-items: center; position: relative; margin-bottom: 10px;}
-  .item video {display: block; width: 100%; justify-content: center; align-items: center; position: relative; margin-bottom: 10px;}
-
-  .box {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(1, 1fr); grid-auto-flow: row; gap: 5px;}
 
 
 
-  hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bottom: 40px;}
 }
 @media only screen and (min-width:1240px) {
 .header {display:none;}
@@ -209,14 +170,16 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
 
 
   <!-- select3 -->
-  <div class="section_pro_white">
-  <h1>Homepage Renewal Event</h1>
+  <div class="section_contents">
+    <div class="section_pro">
+  <h2>Homepage Renewal Event</h2>
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_3-1.png">
-  <div class="box">
-  <div class="item">
+</div>
+  <div class="section_box">
+    <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_3-2.png">
   </div>
-  <div class="item">
+  <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_3-3.png">
   </div>
   </div>
@@ -227,25 +190,29 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
 
 
   <!-- select3.5 -->
-  <div class="section_pro_white">
-  <h1>Brand Promotion</h1>
+  <div class="section_contents">
+    <div class="section_pro">
+  <h2>Brand Promotion</h2>
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_3-4.png">
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_3-5.png">
 
   </div>
-
+</div>
 
 <hr class="section_hr">
 
   <!-- select4 -->
-  <div class="section_pro_white">
-  <h1>24h Express Delivery Service</h1>
+  <div class="section_contents">
+    <div class="section_pro">
+  <h2>24h Express Delivery Service</h2>
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_4-1.png">
-  <div class="box">
-  <div class="item">
+</div>
+
+<div class="section_box">
+  <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_4-2.png">
   </div>
-  <div class="item">
+  <div class="section_pro">
 
     <video poster="https://jwpg018241.github.io/jwpg/img/kiko/kiko_loading.gif" autoplay muted loop>
 <source src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_4-3.mp4">해당 브라우저에는 지원되지 않습니다.</video>
@@ -255,14 +222,16 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
   <hr class="section_hr">
 
   <!-- select5 -->
-  <div class="section_pro_white">
-  <h1>Summer Mini Fan Promotion</h1>
+  <div class="section_contents">
+    <div class="section_pro">
+  <h2>Summer Mini Fan Promotion</h2>
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_5-1.png">
-  <div class="box">
-  <div class="item">
+</div>
+  <div class="section_box">
+    <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_5-2.png">
   </div>
-  <div class="item">
+  <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_5-3.png">
   </div>
   </div>
@@ -270,27 +239,43 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
   <hr class="section_hr">
 
   <!-- select6 -->
-  <div class="section_pro_white">
-  <h1>Event Promotion</h1>
+  <div class="section_contents">
+    <div class="section_pro">
+  <h2>Event Promotion</h2>
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_6-1.png">
-  <div class="box">
-  <div class="item">
+  </div>
+
+  <div class="section_box">
+
+    <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_6-2.png">
+  </div>
+
+  <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_6-4.png">
   </div>
-  <div class="item">
+
+
+  <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_6-3.png">
+    </div>
+
+    <div class="section_pro">
     <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_6-5.png">
   </div>
+
+
   </div>
   </div>
   <hr class="section_hr">
 
   <!-- select7 -->
-  <div class="section_pro_white">
-  <h1>Home Page Main</h1>
+  <div class="section_contents">
+    <div class="section_pro">
+  <h2>Home Page Main</h2>
   <img src="https://jwpg018241.github.io/jwpg/img/kiko/kiko_7-1.png">
   </div>
+</div>
 
   <hr class="section_hr">
 
