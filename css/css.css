@@ -163,7 +163,7 @@ hr {border: 0;height: 1px;background: #dadada; width: 100%;}
 .spot .spot_txt {position: relative; padding: 0 auto; top: 50%; transform: translateY(-40%); text-align: center;z-index:20}
 .spot .spot_txt h2{font-family:  'Noto Sans KR', sans-serif; font-weight: 900; text-align: center; font-size: 80px; color: #fff; width: 1120px; margin: 0 auto;}
 .spot .spot_txt p {font-family:  'Noto Sans KR', sans-serif; font-weight: 500; text-align: center; font-size: 17px; color: #fff; line-height: 12px; width: 1120px; margin: 0 auto;}
-.spot .spot_txt img {display: block; margin: 0 auto; width: 15%;}
+.spot .spot_txt img {display: block; margin: 0 auto; width: 40%;}
 
 /* about section */
 .section_about {position: relative; padding: 110px 0 160px; text-align: center;background:#fff}
@@ -201,7 +201,6 @@ hr.section_profile_hr2 {border: 0;height: 1px;background: #dadada; width: 1120px
 hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px;margin-top: 40px;}
 
 
-.section_first {position: relative; padding: 60px 84px 80px 84px; text-align: left; width: 720px;}
 .section_contents {position: relative; padding: 80px 84px 40px 84px; text-align: left;}
 .section_box {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(2, 1fr); grid-auto-flow: row; gap: 40px;}
 
@@ -1729,7 +1728,6 @@ hr.section_profile_hr1 {border: 0;height: 1px;background: #151515; width: 90%;}
 hr.section_profile_hr2 {border: 0;height: 1px;background: #dadada; width: 90%;}
 hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 90%;margin-top: 40px;}
 
-.section_first {position: relative; padding: 60px 16px 60px 16px; text-align: left;}
 .section_contents {position: relative; padding: 40px 16px 40px 16px; text-align: left;}
 .section_box {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(1, 1fr); grid-auto-flow: row; gap: 10px;}
 
