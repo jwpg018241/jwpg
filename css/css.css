@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /*기존것*/
+html{
+	scroll-behavior: smooth;
+}
+
 table th,table>caption {
 	text-align:left
 }
