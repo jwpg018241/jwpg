@@ -54,6 +54,7 @@ margin: 80px auto;
 /* contents */
 .section_contents {position: relative; padding: 80px 84px 40px 84px; text-align: left;}
 .section_box {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(2, 1fr); grid-auto-flow: row; gap: 40px;}
+.section_box3 {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(3, 1fr); grid-auto-flow: row; gap: 40px;}
 
 .section_pro h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 44px; color: #151515; line-height: 58px;margin-bottom: 58px;}
 .section_pro h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 30px; color: #151515; line-height: 40px;margin-bottom: 40px;}
@@ -77,6 +78,7 @@ hr.section_hr {border: 0;height: 1px;background: #dadada; width: 100%; margin-bo
 
   .section_contents {position: relative; padding: 40px 16px 40px 16px; text-align: left;}
   .section_box {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(1, 1fr); grid-auto-flow: row; gap: 10px;}
+  .section_box3 {width: 100%; display: grid; margin: auto auto; grid-template-columns: repeat(1, 1fr); grid-auto-flow: row; gap: 10px;}
 
   .section_pro h1 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 44px; color: #151515; line-height: 58px;margin-bottom: 58px;}
   .section_pro h2 {font-family:  'Noto Sans KR', sans-serif; font-weight: 700; font-size: 30px; color: #151515; line-height: 40px;margin-bottom: 40px;}
@@ -130,7 +132,7 @@ Web Site</h1>
 <strong>기간:</strong> 20.05 — 21.02<br>
 <strong>디자인:</strong> 박종웅<br>
 <strong>사용 언어:</strong> <strong>Html5, Css3,</strong> javascript, jQuery<br>
-<strong>작업 도구:</strong> Atom, github<br>
+<strong>작업 도구:</strong> Atom, Github<br>
 <strong>기여도:</strong> 80%<br>
 <br>
 <br>
@@ -145,38 +147,62 @@ Web Site</h1>
 </div>
 
 
-
+<!-- About -->
 <!-- select1 -->
 <div class="section_contents">
-<div class="section_box">
+  <div class="section_pro">
+  <h2>About .JWPG</h2>
+  </div>
+
+<div class="section_box3">
 
 <div class="section_pro">
-<h2>디자인</h2>
-<h3>.JWPG</h3>
+<h3>Logo</h3>
 <p>.JWPG란 JONGWOONG PARK GRAPHICS의 약자로
 이미지(jpg) ui아이콘안에 W를 나타내었습니다.</p>
-</div>
 
-<div class="section_pro">
 <img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_1.jpg">
 </div>
 
+<div class="section_pro">
+<h3>Typography</h3>
+<p>웹사이트 서체는 영어, 한글, 일본어가 모두 포함되어 있는 Noto Sans로 같은 스타일을 공유합니다.</p>
+
+<img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_2.jpg">
+</div>
+
+<div class="section_pro">
+<h3>Color</h3>
+<p>웹사이트 서체는 영어, 한글, 일본어가 모두 포함되어 있는 Noto Sans로 같은 스타일을 공유합니다.</p>
+
+<img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_2.jpg">
+</div>
+
 </div>
 </div>
+<hr class="section_hr">
 
 
-
-<!-- select2 -->
+<!-- Product Architecture -->
+<!-- select4 -->
 <div class="section_contents">
+<div class="section_pro">
+<h2>Product Architecture</h2>
+<h3>Layout</h3>
+<p>반응형 레이아웃 그리드는 화면 크기와 방향에 맞게 조정되어 레이아웃간에 일관성을 보장합니다.</p>
+</div>
+
+
 <div class="section_box">
 
 <div class="section_pro">
-<h3>Noto Sans</h3>
-<p>웹사이트 서체는 영어, 한글, 일본어가 모두 포함되어 있는 Noto Sans로 채택했습니다.</p>
+  <img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_4-1.jpg">
+<p>Desktop</p>
 </div>
 
 <div class="section_pro">
-<img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_2.jpg">
+  <img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_4-2.jpg">
+<p>Mobile</p>
 </div>
 
 </div>
@@ -189,13 +215,14 @@ Web Site</h1>
 <div class="section_box">
 
 <div class="section_pro">
-<h3>Scroll 구성</h3>
-<p>방문자가 보기 편하게 스크롤로만 볼수 있게 구성하였습니다.Desktop의 경우 페이지전환이 아닌 모달을 사용해 좀더 보기 수월합니다.</p>
+<h3>Scroll</h3>
+<p>방문자의 편의를 고려해 직관적으로 볼 수 있게 디자인하였습니다.<br>
+동일한 계층안에 컨텐츠를 구성해, 스크롤만으로도 컨텐츠 이동이 가능합니다.</p>
 </div>
 
 <div class="section_pro">
   <video poster="https://jwpg018241.github.io/jwpg/img/kiko/kiko_loading.gif" autoplay muted loop>
-  <source src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_3.mp4">해당 브라우저에는 지원되지 않습니다.</video>
+  <source src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_3.mp4">Browser not supported.</video>
 </div>
 
 </div>
@@ -206,41 +233,17 @@ Web Site</h1>
 
 
 
-<!-- select4 -->
-<div class="section_contents">
-<div class="section_pro">
-<h2>레이아웃</h2>
-<h3>반응형 웹디자인</h3>
-<p>초이스재팬은 모바일, 태블릿 및 데스크톱에 대해 다양한 유형의 기기를 지원합니다.</p>
-<br>
-<h3>그리드 시스템</h3>
-<p>초이스재팬은 반응형 그리드 시스템을 사용하여 패딩과 열 커기를 모바일 및 태블릿, 데스크톱 간에 변경할 수 있습니다.</p>
-</div>
 
 
-<div class="section_box">
-
-<div class="section_pro">
-  <img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_4-1.jpg">
-<p>Desktop 구성</p>
-</div>
-
-<div class="section_pro">
-  <img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_4-2.jpg">
-<p>Mobile 구성</p>
-</div>
-
-</div>
-</div>
-
-
-
+<!-- Components -->
 <!-- select5 -->
 <div class="section_contents">
 <div class="section_pro">
-<h3>Menu</h3>
-<p>1. Desktop의 경우 3단
-2. Mobile의 경우 1단</p>
+<h2>Components</h2>
+<h3>Navigation</h3>
+<p>네비게이션은 동일한 계층 수준에서 화면 간 이동 하며, 디바이스에 따라 각각의 방법을 통해 활성화됩니다.<br><br>
+① Desktop의 경우 3단<br>
+② Mobile의 경우 1단</p>
 <img src="https://jwpg018241.github.io/jwpg/img/jwpg/jwpg_5.jpg">
 
 <br><br>
