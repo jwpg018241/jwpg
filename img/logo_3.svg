@@ -3,14 +3,14 @@
 <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1D1D1B;}
 </style>
 <g>
 	<g>
 		<g>
-			<path class="st0" d="M38.7,0H4.8v50h0.8l0,0h38.7l0,0h0.9l0-39L38.7,0z M35.3,22.1l-14.4,25l0,0l-1.6-2.6l12.8-22.3h-3.3
-				L17.7,41.5l-1.6-2.7l3.2-5.4l-1.7-3L8.1,47.1l0,0L8,47v-5.4l6.5-11.2h-3.2L8,36.3L7.7,2.8h27.6V11H42v22.7L35.3,22.1z M14.6,11
-				C11.5,11,9,13.6,9,16.6c0,3.1,2.5,5.6,5.6,5.6s5.6-2.5,5.6-5.6C20.1,13.6,17.7,11,14.6,11z"/>
+			<path class="st0" d="M38.7,0H4.8v50l0.8,0l0,0h38.7l0,0l0.9,0L45.2,11L38.7,0z M35.3,22.1l-14.4,25l0,0l-1.6-2.6l12.8-22.3h-3.3
+				L17.7,41.5l-1.6-2.7l3.2-5.4l-1.7-3L8.1,47.1l0,0L8,47l0-5.4l6.5-11.2l-3.2,0l-3.3,5.9L7.7,2.8h27.6V11H42L42,33.7L35.3,22.1z
+				 M14.6,11C11.5,11,9,13.6,9,16.6c0,3.1,2.5,5.6,5.6,5.6s5.6-2.5,5.6-5.6C20.1,13.6,17.7,11,14.6,11z"/>
 		</g>
 	</g>
 </g>
