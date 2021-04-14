@@ -746,7 +746,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	height:60px;
 	cursor:pointer;
 	z-index:3;
-	display:none
+	display:none;
 }
 .desctop .headerMenu:hover .headerMenu_item {
 	background:grey
@@ -768,15 +768,18 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	-webkit-animation-direction:alternate;
 	animation-direction:alternate;
 	animation-fill-mode:forwards
+
 }
 .is-open .headerMenu_item {
 	background:grey
+
 }
 .headerMenu_item--1 {
 	top:0;
 	-webkit-transform:translateY(0);
 	-ms-transform:translateY(0);
 	transform:translateY(0)
+
 }
 .is-open .headerMenu_item--1 {
 	-webkit-animation-name:menu1In;
@@ -816,6 +819,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	opacity:1
 }
 .headerMenu_item--3 {
+
 	top:10px
 }
 .is-open .headerMenu_item--3 {
@@ -2035,7 +2039,8 @@ width:100%;
 	.headerMenu {
 		display:block;
 		top:0;
-		right:0
+		right:0;
+
 	}
 	.headerMenu_item {
 		-webkit-animation-duration:.5s;
@@ -6715,6 +6720,7 @@ width:100%;
 		display:block;
 		top:5px;
 		right:16px
+
 	}
 	.aboutMovie {
 		width:1165px;
