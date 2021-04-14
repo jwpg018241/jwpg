@@ -478,7 +478,8 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	height:60px;
 	line-height:60px;
 	padding:0 15px;
-	text-decoration:none
+	text-decoration:none;
+	color:#fff;
 }
 .header,.is-scroll .header {
 	height:71px
@@ -489,7 +490,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	left:0;
 	min-width:980px;
 	width:100%;
-	background:#fff;
+	background:#000;
 	z-index:100;
 	-webkit-transition-property:background;
 	transition-property:background;
@@ -522,7 +523,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 }
 @-webkit-keyframes headerMainOut {
 	0% {
-		background:#fff
+		background:#000
 	}
 	100%,2% {
 		background:rgba(255,255,255,0)
@@ -530,7 +531,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 }
 @keyframes headerMainOut {
 	0% {
-		background:#fff
+		background:#000
 	}
 	100%,2% {
 		background:rgba(255,255,255,0)
@@ -542,7 +543,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	left:0;
 	width:100%;
 	height:0;
-	background:#fff;
+	background:#000;
 	opacity:0;
 	-webkit-transition-property:all;
 	transition-property:all;
@@ -635,7 +636,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	transform:translateX(0)
 }
 .headerLogo_typo {
-	position:absolute;
+  position:absolute;
 	height:100px;
 	left:0px;
 	top:50px;
@@ -756,7 +757,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	left:22.5px
 }
 .headerMenu_item {
-	background:#000;
+	background:#fff;
 	height:2px;
 	width:23px;
 	position:absolute;
@@ -1890,7 +1891,8 @@ width:100%;
 		height:52px;
 		line-height:52px;
 		padding:0 30px 0 0;
-		display:inline-block
+		display:inline-block;
+		color:#fff;
 	}
 	.globalNav_link--lang:after {
 		display:none
@@ -1960,7 +1962,7 @@ width:100%;
 		z-index:2
 	}
 	.is-open .header_main {
-		background:#fff
+		background:#000
 	}
 	.header_overlay {
 		height:100vh;
@@ -6594,6 +6596,7 @@ width:100%;
 		line-height:52px;
 		padding:0 30px 0 0;
 		display:inline-block
+
 	}
 	.globalNav_link--lang:after {
 		display:none
@@ -6652,7 +6655,7 @@ width:100%;
 		z-index:2
 	}
 	.is-open .header_main {
-		background:#fff
+		background:#000
 	}
 	.header_overlay {
 		height:100vh;
