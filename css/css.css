@@ -252,12 +252,12 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 }
 .footerContact {
 	text-align:center;
-	width:372px;
+	width:600px;
 	margin:0 auto 40px;
 	overflow:hidden
 }
 .desctop .footerContact:hover a {
-	border:1px solid #999
+	border:1px solid #004eff; background: #004eff;
 }
 .desctop .footerContact:hover .footerContact_string:before {
 	opacity:1;
@@ -278,7 +278,8 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	transition-duration:.45s;
 	transition-timing-function:cubic-bezier(.215,.61,.355,1);
 	transform:translateX(0);
-	position:relative
+	position:relative;
+	color: #fff;
 }
 .footerContact a,.footerSns_link a {
 	-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);
@@ -289,10 +290,10 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 }
 .footerContact a {
 	display:block;
-	width:372px;
+	width:600px;
 	height:60px;
 	line-height:60px;
-	border:1px solid #ccc;
+	border:1px solid #000;
 	text-decoration:none;
 	font-size:16px;
 	letter-spacing:.075em;
@@ -303,7 +304,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	transition-duration:.25s;
 	transition-timing-function:cubic-bezier(.215,.61,.355,1);
 	overflow:hidden;
-	background:#fff
+	background:#000
 }
 .footerSns_link a,.headerLang_link a {
 	text-decoration:none;
@@ -408,7 +409,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 }
 .desctop .footerSns_link a:hover {
 	text-decoration:none;
-	color:grey
+	color:#004eff
 }
 .footerSns_link a:before {
 	font-size:16px;
@@ -460,7 +461,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	margin-right:0
 }
 .desctop .globalNav_link:hover>a,.tablet .globalNav_link:hover>a {
-	color:grey
+	color:#004eff
 }
 .desctop .globalNav_link:hover .globalNav_child,.tablet .globalNav_link:hover .globalNav_child {
 	opacity:1;
@@ -749,7 +750,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	display:none;
 }
 .desctop .headerMenu:hover .headerMenu_item {
-	background:grey
+	background:#004eff
 }
 .headerMenu_items {
 	position:relative;
@@ -771,7 +772,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 
 }
 .is-open .headerMenu_item {
-	background:grey
+	background:#004eff
 
 }
 .headerMenu_item--1 {
@@ -1173,7 +1174,7 @@ hr.section_profile_hr3 {border: 0;height: 1px;background: #151515; width: 1120px
 	animation:spin .6s infinite linear;
 	width:34px;
 	height:34px;
-	border:1px solid grey;
+	border:1px solid #004eff;
 	border-radius:50%;
 	margin-top:-49px;
 	margin-left:-18px
